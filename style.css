@@ -1,0 +1,46 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#tital{
+    color: white;
+    font-weight: 200;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #2a1212;
+    /* color: white; */
+    text-align: center;
+}
+
+.quote{
+    width: 60%;
+    background-color: white;
+    /* min-height: 300px; */
+    margin: 0 auto;
+    font-size: 3.25vw;
+    padding: 2em 1em 0; 
+}
+
+#getNewQuote,
+#start,
+#stop{
+    padding: 1em 2em;
+    font-weight: 900;
+    font-size: 1.25rem;
+    border-radius: 18px;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#getNewQuote:hover,
+#start:hover,
+#stop:hover{
+    background: transparent;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 200;
+}
